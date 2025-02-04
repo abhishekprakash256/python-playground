@@ -1,6 +1,4 @@
-Here’s a template for a README file for a repository focused on Data Structures and Algorithms (DSA) in Python:
 
----
 
 # Data Structures and Algorithms in Python
 
@@ -62,6 +60,3 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
----
-
-Feel free to adjust sections or add more detailed explanations based on the contents and goals of your repository!
