@@ -39,6 +39,10 @@ class BankAccount():
 
         return self.__balance
     
+    def get_account_number(self):
+
+        return self.__account_number
+    
 
 
 
@@ -49,7 +53,7 @@ account = BankAccount(123435345 , 5000)
 
 
 
-
+print(account.get_account_number())
 
 print(account.get_balance())
 
