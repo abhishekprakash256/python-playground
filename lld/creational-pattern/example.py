@@ -1,4 +1,0 @@
-"""
-example for creational pattern
-"""
-
