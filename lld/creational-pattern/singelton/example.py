@@ -1,6 +1,12 @@
 """
 example for creational pattern
 
+simnple definition --
+
+Imagine you have a big toy box that takes a long time to open because it’s locked with many locks. 
+Instead of unlocking it every time you want a toy, the Singleton is like opening it once in the morning and then keeping it 
+open all day so you can quickly grab toys whenever you want. It saves you a lot of time!
+
 Singleton Pattern is a creational design pattern that guarantees a class has only one instance and provides a global point of access to it. 
 
 It involves only one class which is responsible for instantiating itself, making sure it creates not more than one instance.
@@ -30,6 +36,9 @@ Links --
 - https://www.geeksforgeeks.org/python/singleton-pattern-in-python-a-complete-guide/
 
 - https://ngcheehou.medium.com/problem-solving-with-the-singleton-design-pattern-a-before-and-after-code-analysis-part-1-42f42156a09c
+
+- https://www.freecodecamp.org/news/singleton-design-pattern-with-javascript/
+
 
 
 """
