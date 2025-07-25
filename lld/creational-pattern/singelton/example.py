@@ -56,6 +56,7 @@ In python singelton pattern can be implemented using diffent ways , using the ne
 
 class Logger():
 
+    #this name can be changed
     _instance = None
     
 
@@ -93,5 +94,8 @@ if logger1 is logger2 :
 else :
 
     print("The logger is not same")
+
+
+
 
 
