@@ -24,4 +24,17 @@ class Logger():
 
     def log(self,message):
 
-        print()
+        print(f"This is the message {message}")
+
+        return True
+    
+logger1 = Logger()
+logger2 = Logger()
+
+if logger1 is logger2:
+
+    print("Instance is Same")
+
+else:
+
+    print("Instance is not Same")
