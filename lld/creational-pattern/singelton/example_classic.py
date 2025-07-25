@@ -56,20 +56,20 @@ In python singelton pattern can be implemented using diffent ways , using the ne
 
 class Logger():
 
-    #this name can be changed
-    _instance = None
+    #this name can be changed, this "__" make the instance private as well 
+    __instance = None
     
 
     #the new keyword with underscore is imp
     def __new__(cls):
 
-        if cls._instance is None :
+        if cls.__instance is None :
 
             print("Creating the new Logger instance")
 
             cls._instance = super().__new__(cls)
 
-        return cls._instance
+        return cls.__instance
     
     def log(self,message):
 
@@ -85,7 +85,7 @@ class Logger():
 logger1 = Logger()
 logger2 = Logger()
 
-print(logger1._instance)
+#print(logger1.__instance)
 
 if logger1 is logger2 :
 
