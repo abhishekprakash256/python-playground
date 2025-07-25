@@ -1,5 +1,7 @@
 """
 testing the encaplusation in python
+
+use the "__" in the variable to hide and make private 
 """
 
 
