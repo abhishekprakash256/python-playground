@@ -3,7 +3,7 @@ example for creational pattern
 
 simnple definition --
 
-Imagine you have a big toy box that takes a long time to open because it’s locked with many locks. 
+Imagine you have a big toy box that takes a long time to open because its locked with many locks. 
 Instead of unlocking it every time you want a toy, the Singleton is like opening it once in the morning and then keeping it 
 open all day so you can quickly grab toys whenever you want. It saves you a lot of time!
 
