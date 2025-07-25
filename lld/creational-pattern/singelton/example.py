@@ -43,6 +43,55 @@ Links --
 
 """
 
+"""
 
+In python singelton pattern can be implemented using diffent ways , using the new keyword , using the dict , using the import , using the thread locking , using decorator, using metaclass , using borg patttern, uisng the func lru cache tools 
+
+
+"""
+
+
+
+#making the classic way 
+
+class Logger():
+
+    _instance = None
+    
+
+    #the new keyword with underscore is imp
+    def __new__(cls):
+
+        if cls._instance is None :
+
+            print("Creating the new Logger instance")
+
+            cls._instance = super().__new__(cls)
+
+        return cls._instance
+    
+    def log(self,message):
+
+        print(f"This is log {message}")
+
+        return True
+    
+
+
+#make the instance of the class 
+
+
+logger1 = Logger()
+logger2 = Logger()
+
+print(logger1._instance)
+
+if logger1 is logger2 :
+
+    print("The logger is same")
+
+else :
+
+    print("The logger is not same")
 
 
