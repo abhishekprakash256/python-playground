@@ -2,6 +2,10 @@
 using the decorators in the python
 
 python decorators are juist a way to pass a function inside a function 
+
+
+https://realpython.com/primer-on-python-decorators/
+
 """
 
 def my_decorator(func):
@@ -20,4 +24,7 @@ def my_decorator(func):
 def test():
 
     print("This is the midde")
+
+
+
 
