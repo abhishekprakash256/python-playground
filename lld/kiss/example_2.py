@@ -1,6 +1,7 @@
 """
 The example for the oops principle 
 
+algomaster.io/learn/lld/kiss
 
 Tips
 
