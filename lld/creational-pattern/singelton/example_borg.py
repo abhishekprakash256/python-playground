@@ -34,7 +34,6 @@ logger1 = Logger()
 
 logger2 = Logger()
 
-
 logger1.log("one")
 
 logger2.log("two")
